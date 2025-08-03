@@ -1,0 +1,65 @@
+# ===================
+# Java
+# ===================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# ===================
+# Maven
+# ===================
+/target/
+
+# ===================
+# Gradle
+# ===================
+/build/
+.gradle/
+!gradle-wrapper.jar
+**/out/
+
+# ===================
+# IntelliJ
+# ===================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===================
+# Eclipse
+# ===================
+.project
+.classpath
+.settings/
+bin/
+
+# ===================
+# OS-specific
+# ===================
+.DS_Store
+Thumbs.db
+
+# ===================
+# Logs and Temp
+# ===================
+*.log
+logs/
+*.tmp
+*.swp
+
+# ===================
+# Environment files
+# ===================
+.env
+.env.local
+application.properties
+application.yml
+
+# ===================
+# Other
+# ===================
+node_modules/
+.vscode/
